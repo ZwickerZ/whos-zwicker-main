@@ -124,10 +124,42 @@ footer p {
   margin: 1em 0 0;
 }
 .social-links .insta-follow {
+  display: block;
   width: 100px;
 }
 
 .social-links:hover {
   background-color: #ffc984;
 }
-/* comment */
+
+@media only screen and (min-width: 38em) {
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-logo {
+    width: 30%;
+  }
+
+  .nav {
+    width: 50%;
+  }
+
+  .music {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  .spotify-player, .apple-player {
+    display: inline-block;
+    width: 45%;
+  }
+
+  .more {
+    width: 100%;
+  }
+}
