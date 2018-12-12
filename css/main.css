@@ -109,6 +109,23 @@ header {
   max-height: 450px;
 }
 
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-flex {
+  width: 50%;
+  padding: .5em;
+}
+
+.img-flex img {
+  width: 100%;
+}
+
+.s-2 {
+  width: 100%;
+}
 /* **********MUSIC********** */
 .music {
   margin: 1em 1em 5em 1em;
