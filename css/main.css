@@ -112,6 +112,7 @@ header {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 3em;
 }
 
 .img-flex {
@@ -126,6 +127,16 @@ header {
 .s-2 {
   width: 100%;
 }
+
+.about-me {
+  margin: 3em 1em 1em;
+  text-align: justify;
+}
+
+.hero-shot {
+  width: 100%;
+}
+
 /* **********MUSIC********** */
 .music {
   margin: 1em 1em 5em 1em;
