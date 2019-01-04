@@ -134,9 +134,18 @@ header {
 }
 
 .hero-shot {
+  display: inline-block;
   width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.out-now img{
+  width: 50%;
+  max-width: 500px;
+  margin-bottom: 3em;
+}
 /* **********MUSIC********** */
 .music {
   margin: 1em 1em 5em 1em;
@@ -209,12 +218,14 @@ footer p {
 .main h2 {
   margin-bottom: 0;
   text-transform: uppercase;
-
 }
 
-
-
 @media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
   header {
     display: flex;
@@ -229,6 +240,9 @@ footer p {
     width: 50%;
   }
 
+  .nav li {
+    display: inline-block;
+  }
   .music {
     display: flex;
     flex-wrap: wrap;
@@ -245,4 +259,33 @@ footer p {
   .more {
     width: 100%;
   }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .about-me {
+    position: relative;
+  }
+
+  .content {
+    display: inline-block;
+    width: 66%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
