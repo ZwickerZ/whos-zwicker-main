@@ -81,30 +81,13 @@ header {
   border-radius: 1px;
 }
 
-
-.vid-section {
-  margin: 1em;
-
+.home-banners h3,
+.home-banners p{
+  color: #fff;
 }
 
-.video-player {
-  position: relative;
-  padding-bottom: 51.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-  margin: 3em auto;
-}
-
-.youtube {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: 800px;
-  height: 100%;
-  max-height: 450px;
+.home-banners a:hover {
+  opacity: 0.65;
 }
 
 .portfolio {
@@ -166,15 +149,9 @@ header {
 }
 
 .spotify-player {
-  display: block;
-  width: 100%;
-  margin: 0 auto;
 }
 
 .apple-player {
-  display: block;
-  width: 100%;
-  margin: 3em auto;
 }
 
 .more {
@@ -251,18 +228,6 @@ footer p {
 
   .nav li {
     display: inline-block;
-  }
-  .music {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
-  }
-
-  .spotify-player, .apple-player {
-    display: inline-block;
-    width: 45%;
-    max-width: 420px;
   }
 
   .more {
