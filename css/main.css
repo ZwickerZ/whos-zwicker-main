@@ -84,10 +84,15 @@ header {
 .home-banners h3,
 .home-banners p{
   color: #fff;
+  background-color: black;
+}
+
+.home-banners a {
+  opacity: 0.75;
 }
 
 .home-banners a:hover {
-  opacity: 0.65;
+  opacity: 0.35;
 }
 
 .portfolio {
